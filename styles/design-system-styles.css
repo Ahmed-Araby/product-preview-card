@@ -1,3 +1,20 @@
+:root {
+    /* colors */
+    --color-black: #1C232B;
+    --color-grey: #6C7289;
+    --color-cream: #F2EAE2;
+    --color-green_500: #3D8168;
+    --color-green_700: #1A4032;
+
+    /* spacing */
+    --space-500: 2.5rem; /* 40px */
+    --space-400: 2rem; /* 32px */
+    --space-300: 1.5rem; /* 24px */
+    --space-200: 1rem; /* 16px */
+    --space-100: 0.5rem; /* 8px */
+    --space-50: 0.25rem; /* 4px */
+}
+
 @font-face {
     src: url("../assets/fonts/used-fonts/woff2/Fraunces_72pt-Bold.woff2");
     font-family: "Fraunces-Bold";
