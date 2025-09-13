@@ -1,0 +1,7 @@
+body {
+    background-color: var(--color-cream);
+}
+main {
+    padding-top: var(--space-1000);
+    padding-inline: var(--space-150);
+}
