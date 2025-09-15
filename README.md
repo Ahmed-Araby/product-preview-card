@@ -53,3 +53,4 @@ This is a solution to the [Product preview card component challenge on Frontend 
   * https://webdesign.tutsplus.com/quick-tip-how-to-use-html5-picture-for-responsive-images--cms-21015t
   * https://imagekit.io/responsive-images/#ect-rtt-and-downlink
   * https://www.debugbear.com/blog/properly-size-images
+* https://zellwk.com/blog/media-query-units/
