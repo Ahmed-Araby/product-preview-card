@@ -63,8 +63,9 @@
         
         width: 18.75rem;
     }
-
+    
     .product-info-container {
+        width: 18.75rem;
         border-bottom-left-radius: unset;
         border-top-right-radius: var(--space-100);
     }

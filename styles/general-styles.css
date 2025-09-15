@@ -6,14 +6,12 @@ main {
     padding-inline: var(--space-150);
 }
 
-@media (width >= 48rem) {
+@media (width >= 48rem) { /* 784px */
     main {
         padding-top: unset;
         
         display: flex;
         justify-content: center;
         align-items: center;
-
-        padding-inline: var(--space-1250);
     }
 }
