@@ -36,6 +36,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - typography optimization
 - Responsive Images
+- converting figma design to frontend page
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
