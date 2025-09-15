@@ -54,3 +54,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   * https://imagekit.io/responsive-images/#ect-rtt-and-downlink
   * https://www.debugbear.com/blog/properly-size-images
 * https://zellwk.com/blog/media-query-units/
+* awsome tutorials with walk through the process of converting the figma design of this challenge to html, css and js with the correct semantics
+  * https://fedmentor.dev/posts/html-plan-product-preview/ 
+  * https://uxplanet.org/challenge-006-product-preview-card-component-2de1d66fb4f6
