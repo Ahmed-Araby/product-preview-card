@@ -4,3 +4,10 @@
     border: none;
     box-sizing: border-box;
 }
+
+html, body {
+    height: 100vb;
+}
+main {
+    min-height: 100%;
+}

@@ -1,20 +1,19 @@
 body {
     background-color: var(--color-cream);
-    min-height: 100vb;
 }
 main {
     padding-top: var(--space-1000);
     padding-inline: var(--space-150);
-    height: 100%;
 }
 
 @media (width >= 48rem) {
-    body {
-        display: flex;
-        align-items: center;
-    }
     main {
         padding-top: unset;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         padding-inline: var(--space-1250);
     }
 }
