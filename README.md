@@ -57,3 +57,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 * awsome tutorials with walk through the process of converting the figma design of this challenge to html, css and js with the correct semantics
   * https://fedmentor.dev/posts/html-plan-product-preview/ 
   * https://uxplanet.org/challenge-006-product-preview-card-component-2de1d66fb4f6
+
+### Notes
+* hiding an element with visibility: hidden; property, will only hide the element visually but it still exist in the DOM tree and preserve its space in the document flow
+* setting display: none; property, will remove the element from the document flow (hide it) but the element is still exist in the DOM tree and occupies memory.
+* removing the element with JS code using remove() or removeChild() methods will delete the element completely from the DOM tree and free up memory (offcourse this mean the element is not part of the document flow any more and it is not displayed in the screen).
