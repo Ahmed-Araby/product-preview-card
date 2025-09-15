@@ -62,3 +62,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 * hiding an element with visibility: hidden; property, will only hide the element visually but it still exist in the DOM tree and preserve its space in the document flow
 * setting display: none; property, will remove the element from the document flow (hide it) but the element is still exist in the DOM tree and occupies memory.
 * removing the element with JS code using remove() or removeChild() methods will delete the element completely from the DOM tree and free up memory (offcourse this mean the element is not part of the document flow any more and it is not displayed in the screen).
+
+### TODO, performance enhancement and consistency
+- [ ]set fallback font
+- [ ] use build tool to minimize size of requested files
+- [ ] compare the speed of retrieving the font file from google fonts vs hosting them on github pages
+- [ ] host the fonts on a local server, introduce artifical delay, request the fonts from the local server, and play around with the font-display property
