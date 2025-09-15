@@ -16,7 +16,14 @@
       <article class="product-card">
 
         <figure>
-          <img class="product-img" alt="Gabrielle Essence Eau De Parfum" src="./assets/images/image-product-mobile.jpg">
+          <picture>
+            <source 
+              src="./assets/images/image-product-desktop.jpg"
+              srcset="./assets/images/image-product-desktop.jpg"
+              media="(width >= 48rem)"
+            >
+            <img class="product-img" src="./assets/images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum" >
+          </picture>
         </figure>
   
         <div class="product-info-container">
@@ -37,7 +44,6 @@
           </button>
         </div>
 
-  
       </article>
     </main>
 

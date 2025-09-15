@@ -7,6 +7,7 @@
     --color-green_700: #1A4032;
 
     /* spacing */
+    --space-1250: 5.25rem; /* 80px */
     --space-1000: 5rem; /* 80px */
     --space-500: 2.5rem; /* 40px */
     --space-400: 2rem; /* 32px */

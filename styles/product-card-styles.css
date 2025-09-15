@@ -51,3 +51,21 @@
     justify-content: center;
     gap: var(--space-100);
 }
+
+@media (width >= 48rem) {
+    .product-card {
+        display: flex;
+    }
+
+    .product-img {
+        border-top-right-radius: unset;
+        border-bottom-left-radius: var(--space-100);
+        
+        width: 18.75rem;
+    }
+
+    .product-info-container {
+        border-bottom-left-radius: unset;
+        border-top-right-radius: var(--space-100);
+    }
+}
