@@ -51,6 +51,13 @@
     justify-content: center;
     gap: var(--space-100);
 }
+.add-to-cart-btn:hover {
+    background-color: var(--color-green_700);
+    cursor: pointer;
+}
+.add-to-cart-btn:active {
+    transform: scale(0.98);
+}
 
 @media (width >= 48rem) {
     .product-card {
